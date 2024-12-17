@@ -1,0 +1,90 @@
+/* Reset des marges et padding par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fond de la page et police par défaut */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Section principale */
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titres des sections */
+  h1 {
+    font-size: 2.2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  /* Liste des compétences et intérêts */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Élément de liste avec un peu d'espace */
+  li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* Pour les éléments de liste (ajout de puces personnalisées) */
+  li::before {
+    content: "•";
+    color: #007bff;
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Paragraphe introductif */
+  p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style du lien (si utilisé dans le futur) */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Petits ajustements pour les grands écrans */
+  @media (min-width: 768px) {
+    body {
+      padding: 40px;
+    }
+    
+    section {
+      padding: 40px;
+    }
+  }
+
+  
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }

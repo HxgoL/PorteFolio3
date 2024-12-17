@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <a href="index.html" class="logo-link2">
+        <div class="logo">Lege Hugo</div>
+    </a>
+      <div>
+        <ul class="nav-links">
+          <li><a href="APropos.html">A Propos</a></li>
+          <li><a href="CCI.html">Compétences et Centres d'Intérêt</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./profile-pic.png" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <h1 class="title">Lege Hugo</h1>
+        <p class="section__text__p2">Engineer Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./CVStage_Info2024.pdf')"
+          >
+            Download CV
+          </button>
+        
+          <button class="btn btn-color-1" onclick="location.href='mailto:votre.adresse@email.com';">Envoyer un e-mail</button>
+
+        </div>
+        <div id="socials-container">
+          <img
+            src="./linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/hugo-lege'"
+          />
+          <img
+            src="./github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href=''"
+          />
+          
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
